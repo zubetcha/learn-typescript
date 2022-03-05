@@ -22,6 +22,7 @@ let obj: object = {}
 //   name: 'zubetcha',
 //   age: 29,
 // }
+// TS 객체의 구체적 정의
 let person: { name: string; age: number } = {
   name: 'zubetcha',
   age: 29,
