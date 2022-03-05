@@ -12,3 +12,20 @@ let arr: Array<number> = [1, 2, 3] // arr는 Array type이며, 요소로서 numb
 let items: number[] = [3, 4, 5] // 배열을 리터럴로 표현한 형태로, : Array<number> 와 동일한 타입
 
 let heroes: Array<string> = ['Capt', 'Thor', 'Hulk']
+
+// TS 튜플 > 배열에서 모든 인덱스의 타입까지 정의하는 것
+let myAddress: [string, number] = ['boramae', 24]
+
+// TS 객체
+let obj: object = {}
+// let person: object = {
+//   name: 'zubetcha',
+//   age: 29,
+// }
+let person: { name: string; age: number } = {
+  name: 'zubetcha',
+  age: 29,
+}
+
+// TS 진위값
+let show: boolean = true
