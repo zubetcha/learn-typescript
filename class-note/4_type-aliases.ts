@@ -1,7 +1,12 @@
+// 인터페이스와 타입 별칭의 차이
+
 interface Person {
   name: string;
   age: number;
 }
+
+// 타입 별칭은 특정 타입에 대한 별칭을 제공
+// 타입 별칭은 확장이 되지 않음
 
 // type Person = {
 //   name: string;
