@@ -51,3 +51,18 @@ function askSomeone2(someone: Developer & Person2) { // someone은 Developer와 
 
 askSomeone2({name: '디벨로퍼', skill: '웹 개발', age: 29})
 // askSomeone2({name: '주주', age: 29})
+
+
+interface Person {
+  name: string;
+}
+interface Drinker extends Person {
+  drink: string;
+}
+interface Developer extends Drinker {
+  skill: string;
+}
+let fe = {} as Developer;
+fe.name = 'josh';
+fe.skill = 'TypeScript';
+fe.drink = 'Beer';
