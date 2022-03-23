@@ -1,5 +1,6 @@
 // 인터페이스와 타입 별칭의 차이
 
+// 인터페이스는 extends 키워드를 이용해서 확장 가능
 interface Person {
   name: string;
   age: number;
