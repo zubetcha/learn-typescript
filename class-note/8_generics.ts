@@ -70,8 +70,8 @@ function getShoppingItemOption<T extends keyof ShoppingItem>(itemOption: T): T {
     return itemOption;
 }
 
-getShoppingItemOption(10);
-getShoppingItemOption('a');
+// getShoppingItemOption(10);
+// getShoppingItemOption('a');
 getShoppingItemOption('name');
 
 
