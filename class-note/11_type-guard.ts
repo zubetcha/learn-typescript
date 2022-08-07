@@ -29,5 +29,5 @@ function isDeveloper(target: Developer | Person): target is Developer {
 if (isDeveloper(zu)) {
   console.log(zu.skill);
 } else {
-  console.log(zu.name);
+  // console.log(zu.age);
 }

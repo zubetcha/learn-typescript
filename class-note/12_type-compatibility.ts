@@ -44,5 +44,5 @@ interface NotEmpty<T> {
 var notempty1: NotEmpty<string>;
 var notempty2: NotEmpty<number>;
 
-notempty1 = notempty2;
-notempty2 = notempty1;
+// notempty1 = notempty2;
+// notempty2 = notempty1;
